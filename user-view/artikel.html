@@ -3,82 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
     <title>Posyandude</title>
   </head>
   <body class="bg-gray-100">
     <!-- Navbar -->
     <nav class="bg-blue-500 p-4">
       <div class="container mx-auto flex justify-between items-center">
-        <div class="flex items-center">
-          <div>
-            <img src="../images/logo.png" alt="Logo" class="h-10 w-10" />
-          </div>
-          <div>
-            <span
-              class="text-2xl font-bold text-blue-200"
-              style="font-family: 'Montserrat', sans-serif"
-              >UNDA</span
-            >
-          </div>
-        </div>
+        <a href="../index.html">
+          <div class="flex items-center">
+            <div>
+              <img src="../images/logo.png" alt="Logo" class="h-10 w-10" />
+            </div>
+            <div>
+              <span class="text-2xl font-bold text-blue-200" style="font-family: 'Montserrat', sans-serif">UNDA</span>
+            </div>
+          </div></a
+        >
         <div class="hidden md:flex space-x-8">
-          <a
-            href="index.html"
-            class="text-white text-lg font-bold opacity-70 hover:opacity-100"
-            style="font-family: 'Poppins', sans-serif"
-            >Beranda</a
-          >
-          <a
-            href="artikel.html"
-            class="text-white text-lg font-medium opacity-70 hover:opacity-100"
-            style="font-family: 'Poppins', sans-serif"
-            >Artikel</a
-          >
-          <a
-            href="konsultasi.html"
-            class="text-white text-lg font-medium opacity-70 hover:opacity-100"
-            style="font-family: 'Poppins', sans-serif"
-            >Konsultasi</a
-          >
-          <a
-            href="jadwal.html"
-            class="text-white text-lg font-medium opacity-70 hover:opacity-100"
-            style="font-family: 'Poppins', sans-serif"
-            >Jadwal</a
-          >
+          <a href="../index.html" class="text-white text-lg font-bold opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Beranda</a>
+          <a href="artikel.html" class="text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Artikel</a>
+          <a href="konsultasi.html" class="text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Konsultasi</a>
+          <a href="jadwal.html" class="text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Jadwal</a>
         </div>
         <div class="hidden md:block">
-          <a
-            href="../admin-view/index.php"
-            class="text-white text-lg font-medium opacity-70 hover:opacity-100"
-            style="font-family: 'Poppins', sans-serif"
-            >Login</a
-          >
+          <a href="../admin-view/index.php" class="text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Login</a>
         </div>
         <div class="md:hidden">
           <button type="button" class="text-white focus:outline-none">
             <!-- Mobile menu button icon -->
-            <svg
-              class="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
         </div>
@@ -88,41 +44,71 @@
     <!-- Mobile Menu -->
     <div class="md:hidden">
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <a
-          href="index.html"
-          class="block text-white text-lg font-bold opacity-70 hover:opacity-100"
-          style="font-family: 'Poppins', sans-serif"
-          >Beranda</a
-        >
-        <a
-          href="artikel.html"
-          class="block text-white text-lg font-medium opacity-70 hover:opacity-100"
-          style="font-family: 'Poppins', sans-serif"
-          >Artikel</a
-        >
-        <a
-          href="konsultasi.html"
-          class="block text-white text-lg font-medium opacity-70 hover:opacity-100"
-          style="font-family: 'Poppins', sans-serif"
-          >Konsultasi</a
-        >
-        <a
-          href="jadwal.html"
-          class="block text-white text-lg font-medium opacity-70 hover:opacity-100"
-          style="font-family: 'Poppins', sans-serif"
-          >Jadwal</a
-        >
-        <a
-          href="../admin-view/index.php"
-          class="block text-white text-lg font-medium opacity-70 hover:opacity-100"
-          style="font-family: 'Poppins', sans-serif"
-          >Login</a
-        >
+        <a href="../index.html" class="block text-white text-lg font-bold opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Beranda</a>
+        <a href="artikel.html" class="block text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Artikel</a>
+        <a href="konsultasi.html" class="block text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Konsultasi</a>
+        <a href="jadwal.html" class="block text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Jadwal</a>
+        <a href="../admin-view/index.php" class="block text-white text-lg font-medium opacity-70 hover:opacity-100" style="font-family: 'Poppins', sans-serif">Login</a>
       </div>
     </div>
 
     <main>
-      <!-- Buat Ngoding -->
+      <div class="flex flex-col md:flex-row">
+        <!-- Artikel -->
+        <main class="flex-1 bg-white p-6 rounded-lg shadow-md mb-6 md:mb-0 md:mr-6">
+          <article>
+            <h2 class="text-4xl text-blue-700 font-bold mb-4">Pentingnya Imunisasi Untuk Anak</h2>
+            <div class="flex justify-between text-sm text-gray-600 mb-4">
+              <p>Penulis : Arya</p>
+              <p>Publish : 30 Mei 2024</p>
+            </div>
+            <div class="w-full md:w-2/5 mb-6">
+              <img src="../images/artikel1.jpeg" alt="thumbnail" class="w-full h-auto md:w-auto md:h-auto" />
+            </div>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequatur excepturi unde, vero quibusdam, magnam impedit est, et repellat sit molestias! Quo aspernatur blanditiis labore, voluptatibus fuga, quidem nobis
+              dolore, tempore porro ratione quibusdam libero deserunt. Saepe, aperiam labore? Velit nihil dolor ratione, ipsa saepe quasi, laudantium veniam illo perferendis numquam repellendus molestias corrupti fuga temporibus laboriosam
+              ad corporis quibusdam ea nisi? Explicabo maxime sapiente vel doloremque repellendus, laudantium sequi ut, totam aspernatur repudiandae, tempore ratione optio impedit ad praesentium non. Qui optio suscipit mollitia nobis
+              commodi, temporibus, reprehenderit culpa quidem ipsum voluptate sapiente perferendis esse repudiandae obcaecati ullam doloribus.
+            </p>
+            <h3 class="text-xl text-blue-700 font-bold mb-4">Lorem, ipsum dolor</h3>
+            <p class="mb-4">
+              Tailwind CSS is a utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup. Unlike traditional CSS frameworks like Bootstrap,
+              Tailwind CSS doesn't come with predefined components. Instead, it provides low-level utility classes that let you build completely custom designs without leaving your HTML. This article will walk you through the process of
+              setting up Tailwind CSS, its basic concepts, and how to effectively use it to build modern web interfaces.
+            </p>
+            <h3 class="text-xl text-blue-700 font-bold mb-4">Lorem, ipsum dolor</h3>
+            <p class="mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium exercitationem excepturi iste dolorem quo assumenda esse sunt magnam sit ipsum qui autem mollitia velit vitae, obcaecati aspernatur id in doloremque possimus
+              recusandae quae veritatis perspiciatis praesentium. Omnis ad at ipsam, dolorum hic numquam repudiandae voluptate dicta eligendi deserunt, adipisci repellat ea nostrum corporis voluptatum quasi sed iure ut, asperiores qui
+              reprehenderit. Aperiam cumque voluptas iure temporibus doloribus hic delectus perspiciatis amet eum consequatur deserunt, alias quisquam accusamus enim, aut ipsum, omnis earum reiciendis maxime accusantium. Illo beatae
+              suscipit ducimus officia ad itaque, saepe veritatis quisquam dolorum quis minima asperiores! Numquam?
+            </p>
+          </article>
+        </main>
+        <!-- End Artikel -->
+
+        <!-- Sidebar -->
+        <aside class="w-full md:w-1/4 bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold mb-4">Artikel Lainnya</h3>
+          <a href="#" class="hover:text-blue-700"
+            ><div class="w-full md:w-2/5">
+              <img src="../images/artikel2.jpeg" alt="thumbnail" class="w-56 md:w-auto" />
+            </div>
+            <h3 class="text-lg font-semibold">Pentingnya Cek Kandungan Untuk Ibu Hamil</h3>
+            <p>Artikel tentang pentingnya cek kandungan untuk ibu hamil...</p></a
+          >
+          <h3 class="text-xl font-bold mb-2 mt-6">Kategori</h3>
+          <ul class="list-disc list-inside">
+            <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Imunisasi</a></li>
+            <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Kesehatan Anak</a></li>
+            <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Ibu Hamil</a></li>
+            <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Balita</a></li>
+            <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Parenting</a></li>
+          </ul>
+        </aside>
+        <!-- End Sidebar -->
+      </div>
     </main>
 
     <footer class="bg-gray-800 text-white text-center py-4">
@@ -130,8 +116,8 @@
     </footer>
 
     <script>
-      document.querySelector("button").addEventListener("click", () => {
-        document.querySelector(".md\\:hidden").classList.toggle("hidden");
+      document.querySelector('button').addEventListener('click', () => {
+        document.querySelector('.md\\:hidden').classList.toggle('hidden');
       });
     </script>
   </body>
